@@ -1,0 +1,20 @@
+Um dispositivo portatil encontrado no planeta Anelius esta sendo estudado
+pela equipe de pesquisadores do instituto de Tecnologia da Federação.
+Ele funciona a base de uma linguagem desconhecida e limitada. Para
+estender suas funcionalidades , foi solicitado que voce crie um 
+procedimento que seja capaz de inverter listas de forma não destrutiva
+ou seja sem alterar a lista original, porem utilizando apenas recursos
+basicos de repetição
+(for,While,etc)
+Desafio: Escreva uma função que recebe um array e retorne um novo array com todas as posições 
+invertidas do original sem altera-lo .Não utilize os metodos do objeto global 
+Array do js (reverse , map forEach,etc).
+Testes:
+Entrada : [0,9,6,8,9,1,5,7]
+Saida : [7,5,1,9,8,6,9,0]
+Entrada : ['oh','hi','mark']
+Saida : ['mark','hi','oh']
+Entrada : [false,true,true,true]
+Saida : [true,true,true,false]
+Entrada : ['its','not',true,0]
+Saida : [0,true,'not','its']
