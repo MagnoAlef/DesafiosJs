@@ -13,3 +13,10 @@ function procedimentoRecursivo(number){
 console.log('pro',procedimentoRecursivo(2))
 
 //Solução professor
+
+function recursiveChunks(num) {
+    if (num === 0) return ""
+    return num === 1 ? "Hello" : "Hello-" + recursiveChunks(num - 1) 
+  }
+
+console.log('recur', recursiveChunks(3))  
