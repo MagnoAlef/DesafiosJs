@@ -1,0 +1,11 @@
+A equipe encarregada de aperfeicoar o sistema de navegação das naves da federação precisa que 
+voce os ajude criando um nova funcionalidade . essa funcionalidade consite em calcular a elevação
+quadratica individual de um determinda numero. para realizar esse calculo voce deve elevar ao quadrado
+cada algarismo do numero em questao e concatenar os resultados em um unico numero.
+Desafio: Escreva uma funcao que recebe um numero inteiro qualquer eleve ao quadrado cada um de seus algarismos 
+e depois concatene o resultado retornando um unico numero inteiro
+Teste: 
+Entrada(3514) Saida(925116)
+Entrada(994571) Saida(811625494)
+Entrada(24) Saida(416)
+Entrada(745821698) Saida(4916256441368164)
