@@ -20,3 +20,5 @@ function squareDigits(num) {
     const digitsArray = num.toString().split('')
     return Number(digitsArray.map(number => number ** 2).join(''))
   }
+
+  console.log( 'squareDigits' , squareDigits(3514))
