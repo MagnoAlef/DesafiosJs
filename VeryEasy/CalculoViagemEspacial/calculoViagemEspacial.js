@@ -15,3 +15,8 @@ const teste = []
 console.log( 'funcaoQuadratica' , quadratica(3514))
 
 //Professor
+
+function squareDigits(num) {
+    const digitsArray = num.toString().split('')
+    return Number(digitsArray.map(number => number ** 2).join(''))
+  }
