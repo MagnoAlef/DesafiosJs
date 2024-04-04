@@ -18,3 +18,10 @@ console.log(maiorString('Lorem ipsum dolore sec avanti'))
 console.log(maiorString('Hello'))
 console.log(maiorString('May the force be with you'))
 console.log(maiorString('Its over nine thousand'))
+
+//Solução professor
+
+function highestLetter(str) {
+    const sortedLetters = str.toLowerCase().split('').sort()
+    return sortedLetters[sortedLetters.length - 1]
+  }
