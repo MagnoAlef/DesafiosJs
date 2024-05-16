@@ -1,4 +1,4 @@
-function flatAndSort(arr) {
+function OrganizandoResultadoProfessor(arr) {
     const newArray = []
   
     arr.forEach(numbers => {
@@ -7,3 +7,5 @@ function flatAndSort(arr) {
   
     return newArray.sort((a, b) => a - b)
   }
+
+  console.log(OrganizandoResultadoProfessor([[1,5,3] , [6,19,11] , [47,128,5] , [1,93,57,42,103]]))
